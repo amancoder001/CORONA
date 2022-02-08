@@ -187,10 +187,10 @@ function createSword() {
 }
   
  function createvirus(){
-   if (World.frameCount % 70 == 0) {
+   if (World.frameCount % 50 == 0) {
       virus = createSprite(Math.round(random(width/2-180,width/2+180)), height/2-600, 10, 10);
      virus.addImage(virusImage);
-    virus.scale = 0.035;
+    virus.scale = 0.045;
     virus.velocityY = 3;
      virus.lifetime = 350;
      virusG.add(virus);
