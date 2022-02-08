@@ -1,0 +1,55 @@
+function createCash() {
+  if (World.frameCount % 200 == 0) {
+    cash = createSprite(Math.round(random(200,400), height-700, 10, 10));
+    cash.addImage(cashImage);
+    cash.scale = 0.12;
+    cash.velocityY = 3;
+    cash.lifetime = 150;
+    cashG.add(cash);
+  }
+}
+
+function createDiamonds() {
+  if (World.frameCount % 10 == 0) {
+     diamonds = createSprite(Math.round(random(50, 350), 40, 10, 10));
+    diamonds.addImage(diaImage);
+    diamonds.scale = 0.03;
+    diamonds.velocityY = 3;
+    diamonds.lifetime = 150;
+    diamondsG.add(diamonds);
+  }
+}
+
+function createJwellery() {
+  if (World.frameCount % 410 == 0) {
+    jwell = createSprite(Math.round(random(50, 350), 40, 10, 10));
+    jwell.addImage(jwellImage);
+    jwell.scale = 0.13;
+    jwell.velocityY = 3;
+    jwell.lifetime = 150;
+    jwelleryG.add(jwellery);
+  }
+}
+
+function createSword() {
+  if (World.frameCount % 530 == 0) {
+     sword = createSprite(Math.round(random(50, 350), 40, 10, 10));
+    sword.addImage(swordImage);
+    sword.scale = 0.1;
+    sword.velocityY = 3;
+    sword.lifetime = 150;
+    swordGroup.add(sword);
+  }
+}
+  
+ function createvirus(){
+   if (World.frameCount % 530 == 0) {
+      virus = createSprite(Math.round(random(50, 350), 40, 10, 10));
+     virus.addImage(virusImage);
+    virus.scale = 0.1;
+    virus.velocityY = 3;
+     virus.lifetime = 150;
+     virusG.add(virus);
+   } 
+ } 
+  
