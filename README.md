@@ -1,2 +1,1 @@
-# Tablet-SPCK-PRO-C10-Student-Activity
-Student Activity
+aman the gamer
