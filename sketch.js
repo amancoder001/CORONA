@@ -83,7 +83,7 @@ boy.collide(inv2);
 
  
 if(road.y>height-300) {
-  road.y=height-400
+  road.y=height-800
 }
 if(boy.isTouching(cashG)){
   score = score+20
