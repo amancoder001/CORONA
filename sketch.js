@@ -33,7 +33,7 @@ but2Image= loadImage("right.png")
 function setup(){
   createCanvas(windowWidth,windowHeight);
 
-road = createSprite(width/2,height-500,100,800);
+road = createSprite(width/2,height-700,100,800);
 road.addImage(roadImage)
 road.scale=1.3;
 road.velocityY= 3
